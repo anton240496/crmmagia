@@ -1,0 +1,704 @@
+@font-face {
+    font-family: 'Unbounded';
+    src: url('../font/Unbounded_Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Geologica';
+    src: url('../font/Geologica-ExtraLight.woff2') format('woff2');
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo_kp {
+    height: 50px;
+}
+
+.file-content-editor .p{
+  position: relative;
+}
+
+.hovred::before{
+    content: 'Вставьте курсор в пустой блок, и нажмите на кнопку' !important;
+    color: rgb(211, 211, 81) !important;
+
+}
+
+.file-content-editor {
+    font-family: 'Unbounded', sans-serif !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    width: 1160px;
+    height: 700px;
+    margin: 0 auto;
+    overflow-y: auto;
+    position: relative;
+}
+
+
+.file-content-editor:not(:first-child) .wap {
+    margin-top: 102px;
+    /* Другие стили для шапки */
+}
+
+
+
+
+.p {
+    min-height: 20px;
+    width: 100%;
+    border: 1px dotted #fff;
+}
+
+.textcols-column,
+.textcols-item,
+.textcols-column .name,
+.textcols-column .data {
+    min-height: 20px;
+    border: 1px dotted #fff;
+}
+
+
+
+.wap {
+    font-family: 'Unbounded', sans-serif !important;
+    padding: 0 60px;
+    color: white;
+    position: relative;
+}
+
+.document-header {
+    position: relative;
+    margin-bottom: 20px;
+    min-height: 180px;
+}
+
+
+
+
+
+
+.document-subtitle {
+    max-width: 770px;
+}
+
+.document-subtitle h1 {
+    font-family: 'Unbounded', sans-serif !important;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 100%;
+}
+
+.document-subtitle2 {
+    margin-top: 10px;
+
+    max-width: 770px;
+    max-height: 65px;
+    height: 65px;
+    border: 1px dotted #fff;
+}
+
+.document-subtitle2 h2 {
+    font-family: 'Unbounded', sans-serif !important;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.avatar {
+    width: 50px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+
+.file-content-editor::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+
+.table_avatar {
+    width: 100%;
+    height: auto;
+    font-family: 'Unbounded', sans-serif !important;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #fff;
+    border: 1px dotted #fff;
+}
+
+.avatar_text {
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: 400;
+    border: 1px dotted #fff;
+}
+
+.avatar_prof {
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px dotted #fff;
+}
+
+.address {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    font-family: 'Unbounded', sans-serif !important;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.no-selected {
+    font-size: 10px;
+    border: 3px solid red;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+
+.address_name {
+    margin-bottom: 4px;
+    font-weight: 400;
+}
+
+.address_info.link {
+    color: #F6AE2D;
+}
+
+.address_item.date {
+    vertical-align: middle;
+    text-align: right;
+    font-size: 15px;
+}
+
+
+.address_item.botoom {
+    margin-bottom: 12px;
+}
+
+.textcols_one {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    background: transparent !important
+}
+
+.table-container+.table-container {
+    margin-top: 36px;
+}
+
+.textcols-row {
+    display: table-row;
+    margin-bottom: 24px;
+}
+
+.textcols-item {
+    display: table-cell;
+    width: 50%;
+    vertical-align: top;
+    padding: 0;
+    color: white;
+}
+
+.textcols-item p,
+.texttwo p,
+.podtext {
+    padding: 5px;
+}
+
+.podtext {
+    display: table-cell;
+    text-align: right;
+}
+
+.text {
+    margin-top: 24px;
+    color: white;
+}
+
+
+
+
+
+.texnik {
+    font-family: 'Unbounded' !important;
+    font-weight: 500 !important;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+}
+
+.osnova {
+    font-family: 'Unbounded' !important;
+
+    font-weight: 250 !important;
+    font-size: 12px;
+    line-height: 140%;
+    color: #fff;
+    border: 1px dotted #fff;
+}
+
+span,
+.osnova,
+.textcols_header,
+.p {
+    background-color: transparent !important;
+}
+
+.p {
+    font-family: 'Unbounded' !important;
+
+
+}
+
+.podone {
+    text-align: right;
+}
+
+.textcols-item.name {
+    font-family: 'Unbounded';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.textcols-item.data {
+    font-family: 'Unbounded', sans-serif !important;
+    font-weight: 300 !important;
+    margin-left: auto;
+    font-size: 12px;
+    width: 100%;
+    text-align: right;
+    color: white;
+}
+
+
+.textcols {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+/* две колонки */
+
+
+.textcols_two {
+    width: 100% !important;
+    border-collapse: collapse;
+    table-layout: fixed;
+    background-color: transparent !important;
+}
+
+
+
+.textcols_two .textcols-column {
+    width: 50%;
+    /* Равные колонки */
+    vertical-align: top;
+    padding: 0 10px;
+    /* Отступы между колонками */
+}
+
+.textcols_two .column-content {
+    width: 100%;
+}
+
+.textcols_two .textcols_header {
+    display: table;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.textcols_two .name {
+    display: table-cell;
+    font-family: 'Unbounded';
+    font-weight: 500;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.textcols_two .data {
+
+    display: table-cell;
+    text-align: right;
+    color: white;
+    font-family: 'Unbounded', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 12px;
+}
+
+.textcols_two .texnik {
+    font-family: 'Unbounded', sans-serif !important;
+    font-weight: 400 !important;
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    color: white;
+    background-color: transparent !important;
+}
+
+.textcols_two .osnova {
+    font-family: 'Unbounded', sans-serif !important;
+    font-weight: 250 !important;
+    font-size: 12px;
+    line-height: 140%;
+    color: white;
+}
+
+
+
+
+
+
+.footer_doc {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.footer_row {
+    display: table-row;
+}
+
+.footer_item {
+    display: table-cell;
+    width: 33%;
+    vertical-align: top;
+    padding: 0;
+    color: white;
+    font-family: 'unbounded';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+
+}
+
+img.footer_item {
+    margin-top: -25px;
+}
+
+
+
+.footer_item_n {
+    font-family: 'Unbounded' !important;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+
+}
+
+
+.pech .footer_item {
+    margin-top: 20px;
+}
+
+/* печать */
+.pech {
+    position: relative;
+    margin-top: -10px;
+}
+
+p.footer_item {
+    font-family: 'Unbounded';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+
+}
+
+.footer_doc.dir {
+    margin-top: 140px;
+}
+
+.names {
+    margin-top: 0px;
+    position: absolute;
+    right: 100px;
+    color: white;
+    top: 10px;
+}
+
+.footer_item.img {
+    margin-top: 20px;
+    position: absolute;
+    right: -22px;
+    top: 10px;
+    height: 150px;
+}
+
+
+
+
+/* таблица подсчета */
+.caption {
+    text-align: left;
+    padding-bottom: 10px;
+    position: relative;
+    padding-right: 10px;
+    height: 60px;
+    color: #fff;
+}
+
+.table_tit {
+    display: inline-block;
+
+    font-family: 'Unbounded';
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 240px;
+    height: 22px;
+    vertical-align: middle;
+}
+
+
+.black {
+    background-color: white;
+}
+
+.yellow {
+    background-color: rgb(128, 128, 128)
+}
+
+.tr_info {
+    font-family: 'Unbounded', sans-serif !important;
+    color: black !important;
+    font-weight: 500 !important;
+    font-size: 12px;
+    line-height: 100%;
+    width: 100%;
+    height: 50px;
+}
+
+.tr_info .table_info {
+    border: 1px solid black;
+
+}
+
+.table_all {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.table_kupon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    text-align: center;
+    color: rgb(134 100 41 / 89%);
+}
+
+
+
+.table_info {
+    padding: 10px;
+    max-width: 284px;
+    /* Убираем все границы */
+    vertical-align: middle;
+    color: black;
+}
+
+.table_itog.name {
+    text-align: right;
+}
+
+
+/* Убираем возможные промежутки между ячейками */
+.textcols_more {
+    border: none;
+    border-collapse: separate;
+    border-spacing: 0 8px;
+    background-color: transparent !important;
+}
+
+.caption .logo_kp {
+    float: right;
+}
+
+.table_name .table_cont {
+    text-align: center;
+    margin: 0 10px;
+    padding: 10px 0;
+    margin-bottom: 8px;
+    border: 1px solid white;
+    font-family: 'Unbounded', sans-serif !important;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    color: white;
+
+}
+
+
+
+.p .marker {
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #fff !important;
+    position: relative;
+}
+
+.marker {
+    position: relative;
+    color: #fff !important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Для маркированных списков */
+.p .marker::before {
+    content: "•";
+    color: #F6AE2D !important;
+    position: absolute;
+    left: -15px;
+}
+
+/* Для нумерованных списков */
+ol {
+    counter-reset: item;
+}
+
+h2 .p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+h3 .p {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+ol {
+    list-style-type: none;
+}
+
+ol .marker::before {
+    content: counter(item) "." !important;
+    counter-increment: item;
+    color: #F6AE2D !important;
+    position: absolute;
+    left: -20px;
+}
+
+
+.table_name:first-child .table_cont {
+    margin-left: 0px;
+}
+
+.table_name:last-child .table_cont {
+    margin-right: 0px;
+}
+
+.p:empty::after {
+    content: "\200B";
+    /* zero-width space */
+    display: inline;
+}
+
+
+
+
+
+
+.zakladka::before {
+    content: '';
+    background-image: var(--zakladka-image);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-bottom: 22px;
+}
+
+/* котактные данные */
+.table_contact {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    height: auto;
+    border: 3px solid #F6AE2D;
+    color: #fff;
+    font-family: 'Unbounded', sans-serif !important;
+    font-size: 12px;
+}
+
+.contact_name {
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 3px dotted #f6b02da3;
+    color: #F6AE2D;
+
+}
+
+.stolb-med {
+    border: 2px double #F6AE2D;
+}
+
+.contact_footer {
+    border-top: 3px dotted #f6b02da3;
+    ;
+}
+
+.contact_stolb {
+    color: #F6AE2D;
+    opacity: 0.7;
+    border: 2px dotted #f6b02da3;
+    font-size: 14px;
+    text-align: center;
+}
+
+.contact_stroke_name {
+    font-weight: 500;
+    border-right: 2px solid #F6AE2D;
+    border-bottom: 1px dotted #fff;
+    border-left: 1px dotted #fff;
+    width: 200px;
+    line-height: 20px;
+    padding: 0 10px;
+}
+
+
+
+
+
+.contact_stroke_text {
+    font-weight: 400;
+    border: 1px dotted #fff;
+    width: 200px;
+    line-height: 20px;
+    padding: 0 10px;
+}
+
+@media (max-width: 1470px) {
+    .file-content-editor {
+        width: auto;
+    }
+}

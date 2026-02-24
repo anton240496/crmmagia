@@ -1,0 +1,12 @@
+{
+    "unbounded": {
+        "normal": "unbounded_normal_289e73ace5313f3c80ca92e73d2de25f"
+    },
+    "geologica": {
+        "normal": "geologica_normal_26a8ee6830283e3e22fe3fbc96db2d4e"
+    },
+    "geologica_light": {
+        "normal": "\/var\/www\/u3264727\/data\/www\/connectica.pro\/wp-content\/themes\/Conectica\/dompdf\/vendor\/dompdf\/dompdf\/lib\/fonts\/geologica_light_normal_26a8ee6830283e3e22fe3fbc96db2d4e",
+        "bold": "geologica_light_bold_26a8ee6830283e3e22fe3fbc96db2d4e"
+    }
+}

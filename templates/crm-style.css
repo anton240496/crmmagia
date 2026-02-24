@@ -1,0 +1,182 @@
+
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at center, #f8fbff 0%, #5e7a95 100%);
+}
+
+.main_system {
+    background-color: #8db6dd;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 10px solid #0073aa;
+    max-width: 1000px;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.poddergka{
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+.main_system a,
+.main_system h1,
+.main_system strong {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+.no_license {
+    margin-top: 30px;
+    padding: 5px 10px;
+    background: #8db6dd;
+    border-radius: 15px;
+    font-size: 30px;
+    color: #0073aa;
+    transition: all 1s ease;
+    display: block;
+    text-shadow:
+        0 0 20px #00ffff,
+        0 0 30px #00ffff,
+        0 0 40px #00ffff;
+
+    /* Бело-голубой цвет текста */
+    border-color: 5px solid#b3e0ff;
+    /* Светло-голубая рамка */
+    box-shadow:
+        0 0 20px #00ffff,
+        0 0 40px #00ffff,
+        inset 0 0 20px #a7b3b9;
+}
+
+.no_license:hover {
+    animation: neon-pulse 1s infinite alternate;
+}
+
+@keyframes neon-pulse {
+    0% {
+        text-shadow:
+            0 0 10px #00bfff,
+            0 0 20px #00bfff,
+            0 0 30px #00bfff,
+            0 0 40px #00ffff,
+            0 0 70px #00ffff,
+            0 0 80px #00ffff;
+        color: #00ffff;
+        border-color: #00bfff;
+        box-shadow:
+            0 0 10px #00bfff,
+            0 0 20px #00bfff,
+            inset 0 0 10px #00bfff;
+    }
+
+    100% {
+        text-shadow:
+            0 0 20px #00ffff,
+            0 0 30px #00ffff,
+            0 0 40px #00ffff;
+
+        /* Бело-голубой цвет текста */
+        border-color: #b3e0ff;
+        /* Светло-голубая рамка */
+        box-shadow:
+            0 0 20px #00ffff,
+            0 0 40px #00ffff,
+            inset 0 0 20px #a7b3b9;
+    }
+}
+
+.main_system a:hover {
+    text-decoration: underline;
+}
+
+.main_system .pod_h {
+    color: #0073aa;
+}
+
+.main_system h1 {
+    color: #0073aa;
+    /* Этот цвет останется для остальных букв */
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    /* Можно выбрать другой шрифт */
+}
+
+/* Стили специально для двойной M */
+.main_system h1 .mm-gradient {
+    background: linear-gradient(90deg, #3f9bc7, #042433);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800;
+    /* Делаем M чуть жирнее для акцента */
+}
+
+.act_input {
+    border-radius: 10px;
+    border: 3px solid #0073aa;
+    background: antiquewhite;
+    padding: 5px;
+}
+
+.active_h {
+    text-align: center;
+    margin: 20px 0;
+    display: block;
+}
+
+.activate_lab {
+    color: gray;
+    font-size: 15px;
+}
+
+.active_vvod {
+    display: flex;
+    gap: 10px;
+
+}
+
+.activate_input {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    flex: 1;
+    background: antiquewhite;
+    border-radius: 15px;
+    padding: 10px;
+    min-width: 0;
+}
+
+#activate_domen {
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    background: #007cba;
+    color: white;
+    border-color: #007cba;
+    font-size: 14px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#activate_domen:hOver {
+    background: #005a87;
+}
+
+.activate_info {
+    margin-top: 30px;
+    padding: 0 10px;
+}
+
+.activate_info span {
+    color: #0073aa;
+}

@@ -1,0 +1,304 @@
+.container_shablon {
+    max-width: 65%;
+    margin: 0 60px;
+    padding: 0 0;
+}
+
+.remove-svg-btn {
+    display: none;
+}
+
+.size-full {
+    width: 100%;
+}
+
+.spisok_im_img .size-full {
+    width: auto;
+}
+
+.shablon {
+    margin-top: 48px;
+}
+
+
+
+.container_shablon .main_inner {
+    display: block !important;
+    margin-right: 0 !important;
+    padding-bottom: 0;
+}
+
+
+.spisokim_list .spisok {
+    margin-left: 82px !important;
+}
+
+.spisokim_list {
+    list-style: none !important;
+}
+
+.margin-top-12 {
+    margin-top: 12px !important;
+}
+
+.margin-top-24 {
+    margin-top: 24px !important;
+}
+
+.margin-top-36 {
+    margin-top: 36px !important;
+}
+
+.margin-top-48 {
+    margin-top: 48px !important;
+}
+
+.margin-top-60 {
+    margin-top: 60px !important;
+}
+
+.margin-top-72 {
+    margin-top: 72px !important;
+}
+
+.margin-top-84 {
+    margin-top: 84px !important;
+}
+
+.margin-top-96 {
+    margin-top: 96px !important;
+}
+
+.pr_section {
+    min-height: auto !important;
+}
+
+
+.spisok {
+    list-style-type: disc !important;
+    margin-left: 18px !important;
+    padding-left: 0 !important;
+}
+
+.spisok_raz {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-left: 0 !important;
+}
+
+.spisok_item {
+    position: relative !important;
+    padding-left: 15px !important;
+}
+
+.spisok_item:before {
+    content: "•" !important;
+    color: #F6AE2D !important;
+    font-size: 18px !important;
+    position: absolute !important;
+    left: -3px !important;
+    top: 15px !important;
+    transform: translateY(-50%) !important;
+
+}
+
+
+.spisok {
+    list-style: none !important;
+}
+
+.spisok li {
+    list-style: none !important;
+}
+
+
+.spisokim_item {
+    display: flex;
+    gap: 24px;
+}
+
+.spisokim_item+.spisokim_item {
+    margin-top: 24px;
+}
+
+.spisokol {
+    list-style-type: auto !important;
+    margin-left: 18px;
+}
+
+
+.spisokol li {
+    list-style: auto !important;
+}
+
+.spisokol li::marker {
+    color: #F6AE2D;
+}
+
+.spisok_im_img {
+    padding: 24px;
+    width: 48px;
+    height: 48px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    position: relative;
+}
+
+.spisok_im_img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.shablon_2432 {
+    font-family: 'Unbounded', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+
+}
+
+.highlight {
+    color: #F6AE2D;
+}
+
+.shablon_2028 {
+    font-family: 'Unbounded', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+
+
+
+.container_shablon .opisanie {
+    border-right: none;
+    border-bottom: none;
+}
+
+
+
+/* ==================== НУМЕРОВАННЫЙ СПИСОК С ЖЕЛТЫМИ ЦИФРАМИ ==================== */
+
+/* Основной стиль для нумерованного списка с желтыми цифрами */
+ol.yellow-numbers,
+ol.nested-ol-list.yellow-numbers {
+    list-style-type: none;
+    counter-reset: yellow-counter;
+    padding-left: 0;
+    margin-left: -12px;
+}
+
+ol.yellow-numbers li,
+ol.nested-ol-list.yellow-numbers li {
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+/* Желтые цифры через псевдоэлементы */
+ol.yellow-numbers li::before,
+ol.nested-ol-list.yellow-numbers li::before {
+    content: counter(yellow-counter) ".";
+    font-family: 'Geologica', sans-serif;
+    counter-increment: yellow-counter;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #F6AE2D;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Для вложенных списков */
+ol.yellow-numbers ol.yellow-numbers,
+ol.nested-ol-list.yellow-numbers ol.yellow-numbers {
+    counter-reset: yellow-counter-nested;
+}
+
+
+
+
+@media (max-width: 998px) {
+    .container_shablon {
+        max-width: 550px;
+    }
+}
+
+@media (max-width: 890px) {
+
+    .container_shablon {
+        padding: 0 20px;
+        max-width: 100%;
+        margin: 0 0px;
+    }
+
+    .size-full {
+        min-width: calc(100% + 40px);
+        margin-left: -20px;
+    }
+
+    .spisok_im_img .size-full {
+        margin-left: 0;
+        min-width: auto;
+    }
+
+
+    .container_shablon .opisanie {
+        padding-bottom: 0px;
+    }
+
+    .shablon_2432 {
+        font-size: 18px !important;
+        line-height: 24px;
+    }
+
+    .spisokol{
+        margin-left: 0 !important;
+    }
+
+    .spisokol .spisok li{
+    list-style: none !important;
+}
+
+    .shablon_2028 {
+        font-size: 14px !important;
+        line-height: 20px;
+    }
+
+    .spisok_item {
+        padding-left: 5px !important;
+    }
+
+    .spisok_item:before {
+        top: 12px !important;
+        left: -15px !important;
+    }
+
+    .spisok_im_img img {
+        width: 24px;
+    }
+
+
+
+    .shablon_img_cont {
+        margin: 0 -20px;
+        position: relative;
+        z-index: 5
+    }
+}
+
+@media (max-width: 440px) {
+
+    .shablon_img_cont {
+        margin-right: -20px;
+    }
+
+}

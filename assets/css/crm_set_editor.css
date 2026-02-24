@@ -1,0 +1,43 @@
+.address::before {
+    content: 'контактная информация сайта';
+    position: absolute;
+    font-size: 10px;
+    padding: 0 3px;
+    color: #666;
+    top: -30px;
+    background: #8db6dd;
+    border-radius: 5px;
+    left: 0;
+}
+
+.red_input_tel {
+    background: transparent;
+    color: #fff;
+}
+
+/* Стили для автозаполненного поля */
+.red_input_tel[type="tel"]:-webkit-autofill {
+    background: transparent !important;
+    border: none
+}
+
+/* Убрать стандартный синий фон автозаполнения в Chrome */
+.red_input_tel:-webkit-autofill,
+.red_input_tel:-webkit-autofill:hover,
+.red_input_tel:-webkit-autofill:focus {
+    background: transparent !important;
+    border: none
+}
+
+.tel-display {
+    display: none;
+}
+
+.avatar_tel {
+    display: flex;
+    flex-direction: column;
+}
+
+.red_tel_men {
+    width: 70px;
+}
