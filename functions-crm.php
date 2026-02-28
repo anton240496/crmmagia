@@ -280,7 +280,7 @@ add_action('wp_ajax_crm_check_license_ajax', function () {
     //     $api_domain = 'https://magtexnology.com';
     // }
 
-    $api_domain = 'https:/magtexnology.com'; // ← ТОТ ЖЕ ДОМЕН!
+    $api_domain = 'https://magtexnology.com'; // ← ТОТ ЖЕ ДОМЕН!
     $pay_url = $api_domain . '/crmmagia-pay/#pay';
 
     wp_send_json_success([
